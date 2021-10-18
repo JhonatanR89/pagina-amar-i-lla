@@ -1,0 +1,331 @@
+.imagen__inicio {
+  width: 100%;
+  min-height: 120vh;
+  background: url(/imagenes/red-wine.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: start;
+  text-align: center;
+  position: relative;
+  z-index: -2;
+}
+
+.imagen__inicio::before {
+  content: "";
+  width: 100%;
+  min-height: 120vh;
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    hsla(198, 43%, 11%, 0.705),
+    hsla(195, 35%, 19%, 0.705),
+    hsla(198, 39%, 28%, 0.699)
+  );
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.azul {
+  background: linear-gradient(
+    90deg,
+    hsla(198, 43%, 11%, 0.705),
+    hsla(195, 35%, 19%, 0.705),
+    hsla(197, 38%, 28%, 0.705)
+  );
+}
+.top-nav-collapse {
+  background: linear-gradient(
+    90deg,
+    hsla(198, 43%, 11%, 0.849),
+    hsla(194, 35%, 19%, 0.829),
+    hsla(197, 38%, 28%, 0.863)
+  );
+}
+
+.parrafo__uno {
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-body3 {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5) url(/imagenes/barril.jpg) no-repeat 0 50%;
+  background-position: center;
+  background-size: cover;
+  font-family: "Open sans";
+  font-size: 16px;
+}
+
+.card-title {
+  color: #f0f0f0;
+  text-align: right;
+  font-size: 60px;
+
+  font-family: "Julius Sans one";
+}
+.card-text {
+  color: #f0f0f0;
+  font-family: "lato";
+  font-size: 20px;
+  margin-top: 2rem;
+  text-align: right;
+  justify-content: space-around;
+}
+
+.card-body1 {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f0f0f0;
+  font-size: 16px;
+}
+.card-title1 {
+  color: #212529;
+  text-align: left;
+  font-size: 60px;
+  font-family: "Julius Sans one";
+}
+.card-text1 {
+  color: #212529;
+  font-family: "lato";
+  font-size: 20px;
+  margin-top: 2rem;
+  text-align: left;
+}
+.svgImagen img {
+  margin-top: 10rem;
+  padding-top: 5rem;
+  max-width: 100%;
+}
+.card-body a {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: black;
+  border-color: black;
+}
+footer {
+  color: #666;
+  font-family: "roboto";
+  display: flex;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: #1d1d1b;
+}
+
+.logo2 img {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.redes {
+  padding: 30px;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.ig {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.fb {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.tw {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.wp {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Julius Sans one";
+  text-align: center;
+}
+
+h2 {
+  content: "";
+  font-family: "Julius Sans one";
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 15rem;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #f0f0f0;
+}
+
+h5 {
+  font-family: "julius sans one";
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "lato";
+}
+
+.parrafo {
+  margin-left: 1.5rem;
+  margin-top: 3.5rem;
+  font-family: "lato";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.card-bodymapa {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(/imagenes/dir.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+
+.card-bodymapa::before {
+  content: "";
+  width: 100%;
+  min-height: 120vh;
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    hsla(198, 43%, 11%, 0.705),
+    hsla(195, 35%, 19%, 0.705),
+    hsla(198, 39%, 28%, 0.699)
+  );
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.displayMapa {
+  width: auto;
+  margin-left: 3rem;
+  padding-left: 2rem;
+  display: flex;
+}
+
+.descripMapa {
+  width: 100%;
+}
+
+.descripMapa p {
+  font-family: "Julius sans one";
+  color: #f0f0f0;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  background: url(/imagenes/vinotinto-01.png) no-repeat 0 50%;
+  width: 35%;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 40rem;
+}
+.card1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, #ecb6ec 70%, #3d1f50);
+  opacity: 0.8;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  background: url(/imagenes/vinoblanco-01.png) no-repeat 0 50%;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 40rem;
+  position: relative;
+}
+.card2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, #e4f1bf 70%, #62b32d);
+  opacity: 0.7;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  background: url(/imagenes/vinorose-01.png) no-repeat 0 50%;
+  width: 35%;
+  height: 40rem;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card3::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, #f3abdd 70%, #e9458f);
+  opacity: 0.7;
+}
+
+.card-bodyproductos {
+  color: black;
+  list-style: none;
+  font-size: 1rem;
+
+  z-index: 1;
+}
+
+.card-bodyproductos h5 {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card-bodyproductos p {
+  padding-top: 1rem;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
