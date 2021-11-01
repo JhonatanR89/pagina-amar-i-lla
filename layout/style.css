@@ -1,7 +1,7 @@
 .imagen__inicio {
   width: 100%;
   min-height: 120vh;
-  background: url(/imagenes/red-wine.jpg) no-repeat;
+  background: url(../imagenes/red-wine.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   justify-content: start;
@@ -61,7 +61,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.5) url(/imagenes/barril.jpg) no-repeat 0 50%;
+  background: rgba(255, 255, 255, 0.5) url(../imagenes/barril.jpg) no-repeat 0 50%;
   background-position: center;
   background-size: cover;
   font-family: "Open sans";
@@ -201,7 +201,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(/imagenes/dir.jpg.jpg);
+  background: url(../imagenes/dir.jpg.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -248,7 +248,7 @@ p {
 .card1 {
   display: flex;
   flex-direction: column;
-  background: url(/imagenes/vinotinto-01.png) no-repeat 0 50%;
+  background: url(../imagenes/vinotinto-01.png) no-repeat 0 50%;
   width: 35%;
   background-position: center;
   text-align: center;
@@ -269,7 +269,7 @@ p {
 .card2 {
   display: flex;
   flex-direction: column;
-  background: url(/imagenes/vinoblanco-01.png) no-repeat 0 50%;
+  background: url(../imagenes/vinoblanco-01.png) no-repeat 0 50%;
   background-position: center;
   text-align: center;
   align-items: center;
@@ -290,7 +290,7 @@ p {
 .card3 {
   display: flex;
   flex-direction: column;
-  background: url(/imagenes/vinorose-01.png) no-repeat 0 50%;
+  background: url(../imagenes/vinorose-01.png) no-repeat 0 50%;
   width: 35%;
   height: 40rem;
   background-position: center;
